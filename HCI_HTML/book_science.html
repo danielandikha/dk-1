@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="css+js/styles.css"></link>
+	<link rel="stylesheet" href="css+js/science.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="css+js/javascript.js"></script>
+	<script src="css+js/science.js"></script>
+	<title>Tramedia - Books</title>
+</head>
+<body>
+	<header>
+		<ul>
+			<li class="logo" name="logo" class="a logo"><a href="">Logo</a></li>
+			<li><a id="home_id" href="home.html" class="a home">Home</a></li>
+			<li>
+				<a id="drp-id" class="dropdown" href="javascript:void(0)">Books</a>
+				<div id="drp-content" class="dropdown-content">
+					<a class="drp" href="#">Novel</a>
+					<a class="drp" href="#">Science</a>
+				</div>
+			</li>
+			<li><a id="join_id" href="joinus.html" class="a join">Join Us</a></li>
+			<li><a id="about_id" href="aboutus.html" class="a about">About</a></li>
+		</ul>
+	</header>
+	<!-- -->
+	<div class="main-content">
+		<div class="body-container">
+			<div class="slider-container">
+				
+				<!-- <div class="box fade">
+
+					<img src="https://images-na.ssl-images-amazon.com/images/I/61sSe1w9WDL._SX258_BO1,204,203,200_.jpg" width="80%" height="300px">
+					
+				</div>
+				<div class="box fade">
+					<img src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" width="80%" height="300px">
+				</div>
+ -->
+				<div id="slideshow" class="slider">
+					<img  src="https://images-na.ssl-images-amazon.com/images/I/61sSe1w9WDL._SX258_BO1,204,203,200_.jpg" width="80%" height="300px" class="image active">
+					<img src="https://www.w3schools.com/w3css/img_fjords_wide.jpg" width="80%" height="300px" class="image deactive">
+					<img src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" width="80%" height="300px" class="image deactive">
+				</div>
+			
+
+				<a class="pointer prev" onclick="prevnextSlide(-1)">&#10094;</a>
+				<a class="pointer next" onclick="prevnextSlide(1)">&#10095;</a>
+
+			</div>
+			<div class="books">
+				<div class="book-content">
+					<div class="box">
+						<img src="http://www.interface.ufg.ac.at/christa-laurent/BOOK/Book.jpeg" width="100%" height="150px">
+						<span class="book-identity"><h3 id="titleId">Science book</h3></span>
+						<p id="authorId">Christa Sommerer</p>
+						<p id="priceId">Rp 300000</p>
+						<button id="showDescBtn" >Description</button>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- -->
+
+	<footer class="footer-not-scroll">
+		<ul class="list-footer">
+			<li class="footer-info"><span id="footer_info"></span></a></li>
+			<li class="geser">
+				<a href="https://twitter.com/" target="_blank"><img src="assets/icon/twitter.ico" width="50" height="50"></a>
+			</li>
+			<li>
+				<a href="https://facebook.com/" target="_blank"><img src="assets/icon/facebook.ico" width="50" height="50"></a>
+			</li>
+			<li>
+				<a href="https://instagram.com/" target="_blank"><img src="assets/icon/instagram.ico" width="50" height="50"></a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/collections/featured?hl=id" target="_blank"><img src="assets/icon/google.ico" width="50" height="50"></a>
+			</li>
+			<li class="footer-right">
+				tramedia@gmail.com
+				<br>
+				<span style="float:left;margin-top:9%;">+6287813167671</span>
+			</li>
+			<li class="footer-right move">
+				<img src="assets/icon/email.ico" width="25" height="25">
+				<br>
+				<img src="assets/icon/telp.ico" width="25" height="25">
+			</li>
+			
+		</ul>
+	</footer>
+
+
+</body>
+</html>

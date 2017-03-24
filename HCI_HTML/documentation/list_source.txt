@@ -1,0 +1,10 @@
+Font : 
+Roboto : https://fonts.google.com/?sort=popularity&thickness=6&category=Serif,Sans+Serif,Monospace&selection.family=Roboto:500
+
+Icon : 
+Twitter Icon : https://www.iconfinder.com/icons/1819410/bird_communication_network_socialmeadia_tweet_twitter_icon#size=128
+Facebook Icon : https://www.iconfinder.com/icons/1819423/facebook_logo_media_network_social_icon#size=128
+Google Icon : https://www.iconfinder.com/icons/1819415/google_location_map_pin_social_icon#size=128
+Instagram Icon : https://www.iconfinder.com/icons/1819417/instagram_internet_online_social_icon#size=128
+Email Icon : https://www.iconfinder.com/icons/370078/communication_email_envelope_letter_mail_message_sms_icon#size=128
+Phone Icon : https://www.iconfinder.com/icons/171508/call_phone_smart_icon#size=128

@@ -1,0 +1,60 @@
+.image-container{
+    display: inline-block;
+    border:1px solid red;
+    width: 50%;
+}
+
+.active{
+	background-color:#717171;
+}
+/*
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+*/
+@-webkit-keyframes sliding {
+    from{opacity: 0.4}
+    to{opacity: 1}
+}
+
+@keyframes sliding{
+    from{opacity: 0.4}
+    to{opacity: 1}
+}
+
+.image{
+    display: inline-block;
+    margin:0 1%;
+    -webkit-animation-name: sliding;
+    -webkit-animation-duration: 1.5s;
+    animation-name: sliding;
+    animation-duration: 1.5s;
+}
+
+.main-content{
+    text-align: center;
+}
+
+.box{
+    display:inline-block;
+    width: 80%;
+    text-align: center;
+    border:1px solid black;
+}
+
+.slide{
+    cursor:pointer;
+}

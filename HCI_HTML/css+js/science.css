@@ -1,0 +1,163 @@
+.main-content{
+	text-align: center;
+}
+
+.body-container{
+	display: inline-block;
+
+	width: 80%;
+	height: 100%;
+	border-right: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9; 
+
+}
+
+.slider-container{
+	 max-width: 80%;
+
+ 	position: relative;
+  	margin: auto;
+ 
+}
+
+.pointer{
+	cursor: pointer;
+	position: absolute;
+	top: 43%;
+	
+	
+	margin-top: -22px;
+	color: black;
+	font-size: 15px;
+	transition:0.7s ease;
+
+}
+.prev{
+	left: 0;
+}
+.next{
+	right: 0;
+}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.7} 
+  to {opacity: 1}
+}
+
+.slider{
+	display: block;
+}
+.active{
+	display: inline-block;
+}
+.deactive{
+	display: none;
+}
+.books{
+	display: inline-block;
+	width: 90%;
+	margin-top: 2%;
+	
+}
+.book-content{
+
+ 	width: 90%;
+ 	display: flex;
+ 	flex-wrap:wrap;
+ 	position: relative;
+ 	margin: 1%;
+  	padding: 5%;
+
+ 	
+}
+
+.box{
+	max-width: 10%;
+	text-align: center;
+	margin-left: 2%;
+	padding: 2%;
+	border:1px solid black;
+	
+}
+
+.box img{
+	padding-top: 20%;
+}
+
+/*div.box p#descId{
+	width: 95%;
+	height: 20%;
+     white-space: wrap;
+     overflow-x: scroll;
+     overflow-y:hidden;
+    /* text-overflow: ellipsis;
+     font-size: 15px;
+     text-align: center;
+}*/
+
+#titleId{
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     font-size: 17px;
+     text-align: center;
+     font-family: 'Open Sans Condensed', sans-serif;
+     padding:-10px -10px;
+}
+
+#authorId{
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #9e9e9e;
+}
+
+#priceId{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+#showDescBtn{
+	border: none;
+	padding: 14px 16px;
+	/*background-color: #66bb6a;*/
+	background-color: #ef9a9a;
+	color: white;
+
+}
+
+#showDescBtn:hover{
+	/*background-color:#388e3c;*/
+	background-color: #e53935;
+	color:white;
+	transition:1s ease;
+}
+
+.mypopup{
+	display: hidden;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.book-identity{
+	border:1px solid black;
+	display:inline-block;
+	text-align: center;
+}
